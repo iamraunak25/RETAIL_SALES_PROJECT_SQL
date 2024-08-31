@@ -152,7 +152,7 @@ LIMIT 5
 ```sql
 SELECT 
     category,    
-    COUNT(DISTINCT customer_id) as cnt_unique_cs
+    COUNT(DISTINCT customer_id) as count_unique_customer
 FROM retail_sales
 GROUP BY category
 ```
